@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+    <img src="images/apolo-photographer-xmksM4em7a0-unsplash.jpg" alt="imagem">
+    <div class="descricao">
+        <h2>Nome da musica</h2>
+        <i>Banda</i>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+
+    <div class="player">
+        <i class="fa fa-backward setas previous"></i>
+        <i class="fa fa-play botao-play"></i>
+        <i class="fa fa-pause botao-pause"></i>
+        <i class="fa fa-forward setas next"></i>
+    </div>
+
+    <audio src="musics/A Truly Dazzling Dream - National Sweetheart.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
